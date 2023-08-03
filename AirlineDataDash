@@ -21,7 +21,6 @@ airline_data =  pd.read_csv('https://cf-courses-data.s3.us.cloud-object-storage.
                                    'Div2Airport': str, 'Div2TailNum': str})
 
 
-# List of years 
 year_list = [i for i in range(2005, 2021, 1)]
 
 """Compute graph data for creating yearly airline performance report 
